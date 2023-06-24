@@ -1,0 +1,187 @@
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/sharksharksharkshark/green-ui-lol/main/green%20ui.txt'))()
+ 
+local Window = library:CreateWindow("Rake ESP", "Made by shark", 10044538000)
+ 
+local Tab = Window:CreateTab("菜单")
+ 
+local Page = Tab:CreateFrame("中文")
+
+Button = Page:CreateButton("骂人", "fvv", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fvv", "All")
+end)
+
+Button = Page:CreateButton("骂人", "飞舞一个", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("飞舞一个", "All")
+end)
+
+Button = Page:CreateButton("骂人", "xswl", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("xswl", "All")
+end)
+
+Button = Page:CreateButton("骂人", "没爹没妈", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("没爹没妈", "All")
+end)
+
+Button = Page:CreateButton("骂人", "户口本一页", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("户口本一页", "All")
+end)
+
+Button = Page:CreateButton("骂人", "cnm", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("cnm", "All")
+end)
+
+Button = Page:CreateButton("骂人", "nmsl", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("nmsl", "All")
+end)
+
+Button = Page:CreateButton("骂人", "出生", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("出生", "All")
+end)
+
+Button = Page:CreateButton("骂人", "你不如原神", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("你不如原神", "All")
+end)
+
+Button = Page:CreateButton("骂人", "你怎么逃逸了？", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("你怎么逃逸了呢？", "All")
+end)
+
+local Page = Tab:CreateFrame("英文")
+
+Button = Page:CreateButton("骂人", "你看起来像头骡子", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("you looks like a mule！", "All")
+end)
+
+Button = Page:CreateButton("骂人", "傻子", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fool", "All")
+end)
+
+Button = Page:CreateButton("骂人", "ez", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ez", "All")
+end)
+
+Button = Page:CreateButton("骂人", "好笑", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("lol", "All")
+end)
+
+Button = Page:CreateButton("骂人", "你很丑", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("You are ugly！", "All")
+end)
+
+Button = Page:CreateButton("骂人", "菜鸟", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("noob", "All")
+end)
+
+
+
+Toggle = Page:CreateToggle("骂人英文", "连续", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("you looks like a mule！", "All")
+    wait(1)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fool", "All")
+    wait(1)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ez", "All")
+    wait(1)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("lol", "All")
+    wait(1)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("You are ugly！", "All")
+    wait(3)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("YOU", "All")
+    wait(3)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ARE", "All")
+    wait(5)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("A", "All")
+    wait(3)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GAYS", "All")
+    wait(1)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("！", "All")
+    wait(1)
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("hahaha", "All")
+end)
+
+local Page = Tab:CreateFrame("激烈的")
+
+Button = Page:CreateButton("其他", "救我！", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("help！！！", "All")
+end)
+
+Button = Page:CreateButton("其他", "求求你了", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("plss！！！", "All")
+end)
+
+Button = Page:CreateButton("其他", "求你了", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("pls！", "All")
+end)
+
+local Page = Tab:CreateFrame("巴掌模拟器")
+
+Button = Page:CreateButton("巴掌", "运气好差呀，五天了都没有刷到bob", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("运气好差呀，五天了都没有刷到bob", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "给我bob", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("get me bob", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "和平", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("和平", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "这里有国人吗？", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("这里有国人吗？", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "出了新手套！怎么获得", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("出了新手套！怎么获得", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "谁有氪金手套？", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("谁有氪金手套？", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "好友玩一局大逃杀", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("好友玩一局大逃杀", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "不要打扰我，我在刷bob", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("不要打扰我，我在刷bob", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "大佬帮我弄一下手套呗", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("大佬帮我弄一下手套呗", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "服务器里有超杀！", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("服务器里有超杀！", "All")
+end)
+
+Button = Page:CreateButton("巴掌", "我刷到了bob！", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("我刷到了bob！", "All")
+end)
+
+local Page = Tab:CreateFrame("力量")
+
+Button = Page:CreateButton("力量", "帮你卡宠", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("帮你卡宠", "All")
+end)
+
+Button = Page:CreateButton("力量", "收破烂了", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("收破烂了", "All")
+end)
+
+Button = Page:CreateButton("力量", "我想要肌肉之王", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("我想要肌肉之王", "All")
+end)
+
+Button = Page:CreateButton("力量", "给我个小金人呗", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("给我个小金人呗", "All")
+end)
+
+local Page = Tab:CreateFrame("指令")
+
+Button = Page:CreateButton("指令", "跳舞", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e dance", "All")
+end)
+
+Button = Page:CreateButton("指令", "坐下", function()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(":sit", "All")
+end)
